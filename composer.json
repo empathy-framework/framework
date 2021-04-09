@@ -1,0 +1,19 @@
+{
+    "name": "empathy-php/framework",
+    "description": "Empathy Framework",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Podvirnyy Nikita",
+            "email": "suimin.tu.mu.ga.mi@gmail.com"
+        }
+    ],
+    "require": {
+        "empathy-php/core": "^0.1",
+        "empathy-php/engine": "^0.1"
+    },
+    "scripts": {
+        "empathy-run": "vendor/empathy-php/core/empathy.exe vendor/empathy-php/core/script.php"
+    }
+}
