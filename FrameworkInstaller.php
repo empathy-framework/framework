@@ -1,5 +1,7 @@
 <?php
 
+namespace EmpathyInstaller;
+
 use Composer\Installer\PackageEvent;
 
 class FrameworkInstaller

@@ -16,5 +16,10 @@
     "scripts": {
         "post-create-project-cmd": "FrameworkInstaller::postCreateProject",
         "empathy-run": "vendor/empathy-php/core/empathy.exe vendor/empathy-php/core/script.php"
+    },
+    "autoload": {
+        "psr-4": {
+            "EmpathyInstaller\\": "/"
+        }
     }
 }
