@@ -12,24 +12,12 @@
 composer create-project empathy-php/framework
 ```
 
-Для лучшей работы рекомендуется прописать следующий код в корневом файле `composer.json`:
-
-```json
-{
-    "scripts": {
-        "empathy-run": "vendor/empathy-php/core/empathy.exe vendor/empathy-php/core/script.php"
-    }
-}
-```
-
-После чего можно будет исполнять код
+## Запуск приложения
 
 ```
 composer empathy-run
 ```
 
-для запуска проекта
-
-Код приложения можно писать в файле `app.php` в корневой директории проекта
+Код приложения расположен в файле `app.php` в корневой директории проекта
 
 Авторы: [Подвирный Никита](https://vk.com/technomindlp) и [Кусов Андрей](https://vk.com/postmessagea)
