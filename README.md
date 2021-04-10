@@ -20,4 +20,4 @@ composer empathy-run
 
 Код приложения расположен в файле `app.php` в корневой директории проекта
 
-Авторы: [Подвирный Никита](https://vk.com/technomindlp) и [Кусов Андрей](https://vk.com/postmessagea)
+Авторы: [Подвирный Никита](https://vk.com/technomindlp)
