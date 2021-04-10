@@ -14,7 +14,7 @@
         "empathy-php/engine": "^0.1"
     },
     "scripts": {
-        "post-create-project-cmd": "FrameworkInstaller::postCreateProject",
+        "post-create-project-cmd": "EmpathyInstaller\\FrameworkInstaller::postCreateProject",
         "empathy-run": "vendor/empathy-php/core/empathy.exe vendor/empathy-php/core/script.php"
     },
     "autoload": {
