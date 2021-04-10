@@ -72,7 +72,7 @@ $engine_version_value->caption = \Composer\InstalledVersions::getPrettyVersion (
 $engine_version_value->font = ['Segoe UI', 18];
 $engine_version_value->foregroundColor = clDarkOrange;
 
-$engine_version_value->bounds = [$engine_version_caption->left + $engine_version_caption->width, $engine_version_caption->top, 192, 32];
+$engine_version_value->bounds = [$engine_version_caption->left + $engine_version_caption->width, $engine_version_caption->top + 2, 192, 32];
 
 # Core version caption
 $core_version_caption = new Label ($form);
@@ -90,7 +90,7 @@ $core_version_value->caption = \Composer\InstalledVersions::getPrettyVersion ('e
 $core_version_value->font = ['Segoe UI', 18];
 $core_version_value->foregroundColor = clDarkOrange;
 
-$core_version_value->bounds = [$core_version_caption->left + $core_version_caption->width, $core_version_caption->top, 192, 32];
+$core_version_value->bounds = [$core_version_caption->left + $core_version_caption->width, $core_version_caption->top + 2, 192, 32];
 
 # PHP version caption
 $php_version_caption = new Label ($form);
@@ -108,7 +108,7 @@ $php_version_value->caption = PHP_VERSION;
 $php_version_value->font = ['Segoe UI', 18];
 $php_version_value->foregroundColor = clDarkOrange;
 
-$php_version_value->bounds = [$php_version_caption->left + $php_version_caption->width, $php_version_caption->top, 192, 32];
+$php_version_value->bounds = [$php_version_caption->left + $php_version_caption->width, $php_version_caption->top + 2, 192, 32];
 
 /**
  * Loaded extensions
